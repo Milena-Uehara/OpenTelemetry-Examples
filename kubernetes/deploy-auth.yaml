@@ -27,7 +27,7 @@ spec:
       - name: dockerhub
       containers:
       - name: datadog-auth-app
-        image: uehara96/node-teste:auth-otel
+        image: uehara96/otel:auth-v1
         ports:
         - containerPort: 8082
         imagePullPolicy: Always
